@@ -6,7 +6,7 @@ You’re welcome to start using it but please be aware that we’re still testin
 
 ## Guidance
 
-Visit the [NHS digital service manual](https://beta.nhs.uk/service-manual) for examples of components and guidance for when to use them. If we haven’t yet published guidance on the component you want, please [email us](mailto:service-manual@nhs.net) or get in touch on the [NHS.UK #standards Slack channel](https://nhsuk.slack.com/messages/standards).
+Visit the [NHS digital service manual](https://beta.nhs.uk/service-manual) for examples of components and guidance for when to use them. If we haven’t yet published guidance on the component you want, please [email us](mailto:service-manual@nhs.net) or get in touch on the [NHS digital service manual public Slack channel](https://nhs-service-manual.slack.com/messages/CDJ29AQCD).
 
 ## How to install NHS.UK frontend
 
@@ -37,7 +37,7 @@ We created this library with help from:
 
 ## Get in touch
 
-NHS.UK frontend is maintained by NHS Digital. [Email us](mailto:service-manual@nhs.net), open a [Github issue](https://github.com/nhsuk/nhsuk-frontend/issues/new) or get in touch on the [NHS.UK #standards Slack channel](https://nhsuk.slack.com/messages/standards).
+NHS.UK frontend is maintained by NHS Digital. [Email us](mailto:service-manual@nhs.net), open a [Github issue](https://github.com/nhsuk/nhsuk-frontend/issues/new) or get in touch on the [NHS digital service manual public Slack channel](https://nhs-service-manual.slack.com/messages/CDJ29AQCD).
 
 ## Licence
 

@@ -5,7 +5,7 @@ of ways that you can contribute – reporting bugs, fixing bugs, suggesting new 
 
 We've compiled a list of contributing guidance to make it easier for you to contribute and to make sure you follow our guidelines for the project.
 
-If you have any questions please [email us](mailto:service-manual@nhs.net) or get in touch on the [NHS.UK #standards Slack channel](https://nhsuk.slack.com/messages/standards).
+If you have any questions please [email us](mailto:service-manual@nhs.net) or get in touch on the [NHS digital service manual public Slack channel](https://nhs-service-manual.slack.com/messages/CDJ29AQCD).
 
 ## Contributing contents
 

@@ -12,43 +12,34 @@ To discuss or contribute to this component, visit the [GitHub issue for this com
 
 ```html
 <div class="nhsuk-form-group">
-
   <fieldset class="nhsuk-fieldset" aria-describedby="nationality-hint">
-
-  <legend class="nhsuk-fieldset__legend">
-    What is your nationality?
-  </legend>
-
-  <span id="nationality-hint" class="nhsuk-hint">
+    <legend class="nhsuk-fieldset__legend">
+      What is your nationality?
+    </legend>
+    <span class="nhsuk-hint" id="nationality-hint">
     If you have dual nationality, select all options that are relevant to you.
-  </span>
-
-  <div class="nhsuk-checkboxes">
-
-    <div class="nhsuk-checkboxes__item">
-      <input class="nhsuk-checkboxes__input" id="nationality-1" name="nationality" type="checkbox" value="british">
-      <label class="nhsuk-label nhsuk-checkboxes__label" for="nationality-1">
+    </span>
+    <div class="nhsuk-checkboxes">
+      <div class="nhsuk-checkboxes__item">
+        <input class="nhsuk-checkboxes__input" id="nationality-1" name="nationality" type="checkbox" value="british">
+        <label class="nhsuk-label nhsuk-checkboxes__label" for="nationality-1">
         British
-      </label>
-    </div>
-
-    <div class="nhsuk-checkboxes__item">
-      <input class="nhsuk-checkboxes__input" id="nationality-2" name="nationality" type="checkbox" value="irish">
-      <label class="nhsuk-label nhsuk-checkboxes__label" for="nationality-2">
+        </label>
+      </div>
+      <div class="nhsuk-checkboxes__item">
+        <input class="nhsuk-checkboxes__input" id="nationality-2" name="nationality" type="checkbox" value="irish">
+        <label class="nhsuk-label nhsuk-checkboxes__label" for="nationality-2">
         Irish
-      </label>
-    </div>
-
-    <div class="nhsuk-checkboxes__item">
-      <input class="nhsuk-checkboxes__input" id="nationality-3" name="nationality" type="checkbox" value="other">
-      <label class="nhsuk-label nhsuk-checkboxes__label" for="nationality-3">
+        </label>
+      </div>
+      <div class="nhsuk-checkboxes__item">
+        <input class="nhsuk-checkboxes__input" id="nationality-3" name="nationality" type="checkbox" value="other">
+        <label class="nhsuk-label nhsuk-checkboxes__label" for="nationality-3">
         Citizen of another country
-      </label>
+        </label>
+      </div>
     </div>
-
-  </div>
   </fieldset>
-
 </div>
 ```
 

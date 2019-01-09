@@ -219,45 +219,36 @@ To discuss or contribute to this component, visit the [GitHub issue for this com
 
 ```html
 <div class="nhsuk-form-group">
-
   <fieldset class="nhsuk-fieldset" aria-describedby="waste-hint">
-
-  <legend class="nhsuk-fieldset__legend nhsuk-fieldset__legend--l">
-    <h1 class="nhsuk-fieldset__heading">
-      Which types of waste do you transport regularly?
-    </h1>
-  </legend>
-
-  <span id="waste-hint" class="nhsuk-hint">
+    <legend class="nhsuk-fieldset__legend nhsuk-fieldset__legend--l">
+      <h1 class="nhsuk-fieldset__heading">
+        Which types of waste do you transport regularly?
+      </h1>
+    </legend>
+    <span class="nhsuk-hint" id="waste-hint">
     Select all that apply
-  </span>
-
-  <div class="nhsuk-checkboxes">
-
-    <div class="nhsuk-checkboxes__item">
-      <input class="nhsuk-checkboxes__input" id="waste-1" name="waste" type="checkbox" value="animal">
-      <label class="nhsuk-label nhsuk-checkboxes__label" for="waste-1">
+    </span>
+    <div class="nhsuk-checkboxes">
+      <div class="nhsuk-checkboxes__item">
+        <input class="nhsuk-checkboxes__input" id="waste-1" name="waste" type="checkbox" value="animal">
+        <label class="nhsuk-label nhsuk-checkboxes__label" for="waste-1">
         Waste from animal carcasses
-      </label>
-    </div>
-
-    <div class="nhsuk-checkboxes__item">
-      <input class="nhsuk-checkboxes__input" id="waste-2" name="waste" type="checkbox" value="mines">
-      <label class="nhsuk-label nhsuk-checkboxes__label" for="waste-2">
+        </label>
+      </div>
+      <div class="nhsuk-checkboxes__item">
+        <input class="nhsuk-checkboxes__input" id="waste-2" name="waste" type="checkbox" value="mines">
+        <label class="nhsuk-label nhsuk-checkboxes__label" for="waste-2">
         Waste from mines or quarries
-      </label>
-    </div>
-
-    <div class="nhsuk-checkboxes__item">
-      <input class="nhsuk-checkboxes__input" id="waste-3" name="waste" type="checkbox" value="farm">
-      <label class="nhsuk-label nhsuk-checkboxes__label" for="waste-3">
+        </label>
+      </div>
+      <div class="nhsuk-checkboxes__item">
+        <input class="nhsuk-checkboxes__input" id="waste-3" name="waste" type="checkbox" value="farm">
+        <label class="nhsuk-label nhsuk-checkboxes__label" for="waste-3">
         Farm or agricultural waste
-      </label>
+        </label>
+      </div>
     </div>
-
-  </div>
   </fieldset>
-
 </div>
 ```
 

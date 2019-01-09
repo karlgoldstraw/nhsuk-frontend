@@ -289,40 +289,33 @@ To discuss or contribute to this component, visit the [GitHub issue for this com
 
 ```html
 <div class="nhsuk-form-group">
-
   <fieldset class="nhsuk-fieldset">
-
-  <legend class="nhsuk-fieldset__legend">
-    <h1 class="nhsuk-fieldset__heading">
-      How do you want to sign in?
-    </h1>
-  </legend>
-
-  <div class="nhsuk-radios">
-
-    <div class="nhsuk-radios__item">
-      <input class="nhsuk-radios__input" id="gov-1" name="gov" type="radio" value="gateway" aria-describedby="gov-1-item-hint">
-      <label class="nhsuk-label nhsuk-radios__label" for="gov-1">
+    <legend class="nhsuk-fieldset__legend">
+      <h1 class="nhsuk-fieldset__heading">
+        How do you want to sign in?
+      </h1>
+    </legend>
+    <div class="nhsuk-radios">
+      <div class="nhsuk-radios__item">
+        <input class="nhsuk-radios__input" id="gov-1" name="gov"type="radio" value="gateway" aria-describedby="gov-1-item-hint">
+        <label class="nhsuk-label nhsuk-radios__label" for="gov-1">
         Sign in with Government Gateway
-      </label>
-      <span id="gov-1-item-hint" class="nhsuk-hint nhsuk-radios__hint">
+        </label>
+        <span class="nhsuk-hint nhsuk-radios__hint" id="gov-1-item-hint">
         You&#39;ll have a user ID if you&#39;ve registered for Self Assessment or filed a tax return online before.
-      </span>
-    </div>
-
-    <div class="nhsuk-radios__item">
-      <input class="nhsuk-radios__input" id="gov-2" name="gov" type="radio" value="verify" aria-describedby="gov-2-item-hint">
-      <label class="nhsuk-label nhsuk-radios__label" for="gov-2">
-        Sign in with GOV.UK Verify
-      </label>
-      <span  class="nhsuk-hint nhsuk-radios__hint" id="gov-2-item-hint">
+        </span>
+      </div>
+      <div class="nhsuk-radios__item">
+        <input class="nhsuk-radios__input" id="gov-2" name="gov"type="radio" value="verify" aria-describedby="gov-2-item-hint">
+        <label class="nhsuk-label nhsuk-radios__label" for="gov-2">
+        Sign in with NHS.UK Login
+        </label>
+        <span class="nhsuk-hint nhsuk-radios__hint" id="gov-2-item-hint">
         You’ll have an account if you’ve already proved your identity with either Barclays, CitizenSafe, Digidentity, Experian, Post Office, Royal Mail or SecureIdentity.
-      </span>
+        </span>
+      </div>
     </div>
-
-  </div>
   </fieldset>
-
 </div>
 ```
 

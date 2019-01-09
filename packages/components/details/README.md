@@ -69,12 +69,12 @@ If you’re using Nunjucks macros in production be aware that using `html` argum
 
 ```html
 <details class="nhsuk-details nhsuk-expander">
-  <summary class="nhsuk-details__summary" role="button" aria-controls="details-content-0" aria-expanded="false">
+  <summary class="nhsuk-details__summary">
     <span class="nhsuk-details__summary-text">
     Opening times
     </span>
   </summary>
-  <div class="nhsuk-details__text" id="details-content-0" aria-hidden="true">
+  <div class="nhsuk-details__text">
     <table>
       <tbody>
         <tr>

@@ -43,13 +43,11 @@ To discuss or contribute to this component, visit the [GitHub issue for this com
 ```html
 <div class="nhsuk-form-group">
   <label class="nhsuk-label" for="input-with-hint-text">
-    National insurance number
+  National insurance number
   </label>
-
-  <span id="input-with-hint-text-hint" class="nhsuk-hint">
-    It’s on your National Insurance card, benefit letter, payslip or P60\. For example, ‘QQ 12 34 56 C’.
+  <span class="nhsuk-hint" id="input-with-hint-text-hint">
+  It’s on your National Insurance card, benefit letter, payslip or P60. For example, ‘QQ 12 34 56 C’.
   </span>
-
   <input class="nhsuk-input" id="input-with-hint-text" name="test-name-2" type="text" aria-describedby="input-with-hint-text-hint">
 </div>
 ```

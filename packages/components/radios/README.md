@@ -219,41 +219,32 @@ To discuss or contribute to this component, visit the [GitHub issue for this com
 
 ```html
 <div class="nhsuk-form-group">
-
   <fieldset class="nhsuk-fieldset">
-
-  <legend class="nhsuk-fieldset__legend">
-    How do you want to sign in?
-  </legend>
-
-  <div class="nhsuk-radios">
-
-    <div class="nhsuk-radios__item">
-      <input class="nhsuk-radios__input" id="example-divider-1" name="example" type="radio" value="governement-gateway">
-      <label class="nhsuk-label nhsuk-radios__label" for="example-divider-1">
+    <legend class="nhsuk-fieldset__legend">
+      How do you want to sign in?
+    </legend>
+    <div class="nhsuk-radios">
+      <div class="nhsuk-radios__item">
+        <input class="nhsuk-radios__input" id="example-divider-1" name="example"type="radio" value="government-gateway">
+        <label class="nhsuk-label nhsuk-radios__label" for="example-divider-1">
         Use Government Gateway
-      </label>
-    </div>
-
-    <div class="nhsuk-radios__item">
-      <input class="nhsuk-radios__input" id="example-divider-2" name="example" type="radio" value="nhsuk-verify">
-      <label class="nhsuk-label nhsuk-radios__label" for="example-divider-2">
-        Use GOV.UK Verify
-      </label>
-    </div>
-
-    <div class="nhsuk-radios__divider">or</div>
-
-    <div class="nhsuk-radios__item">
-      <input class="nhsuk-radios__input" id="example-divider-4" name="example" type="radio" value="create-account">
-      <label class="nhsuk-label nhsuk-radios__label" for="example-divider-4">
+        </label>
+      </div>
+      <div class="nhsuk-radios__item">
+        <input class="nhsuk-radios__input" id="example-divider-2" name="example"type="radio" value="nhsuk-login">
+        <label class="nhsuk-label nhsuk-radios__label" for="example-divider-2">
+        Use NHS.UK Login
+        </label>
+      </div>
+      <div class="nhsuk-radios__divider">or</div>
+      <div class="nhsuk-radios__item">
+        <input class="nhsuk-radios__input" id="example-divider-4" name="example"type="radio" value="create-account">
+        <label class="nhsuk-label nhsuk-radios__label" for="example-divider-4">
         Create an account
-      </label>
+        </label>
+      </div>
     </div>
-
-  </div>
   </fieldset>
-
 </div>
 ```
 

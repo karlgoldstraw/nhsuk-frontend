@@ -119,13 +119,11 @@ To discuss or contribute to this component, visit the [GitHub issue for this com
 ```html
 <div class="nhsuk-form-group">
   <label class="nhsuk-label" for="input-width-10">
-    National insurance number
+  National insurance number
   </label>
-
-  <span id="input-width-10-hint" class="nhsuk-hint">
-    It’s on your National Insurance card, benefit letter, payslip or P60\. For example, ‘QQ 12 34 56 C’.
+  <span class="nhsuk-hint" id="input-width-10-hint">
+  It’s on your National Insurance card, benefit letter, payslip or P60. For example, ‘QQ 12 34 56 C’.
   </span>
-
   <input class="nhsuk-input nhsuk-input--width-10" id="input-width-10" name="test-width-10" type="text" aria-describedby="input-width-10-hint">
 </div>
 ```

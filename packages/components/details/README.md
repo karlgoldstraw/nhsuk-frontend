@@ -17,12 +17,12 @@ compiled JavaScript for all components `nhsuk.min.js` or the individual componen
 
 ```html
 <details class="nhsuk-details">
-  <summary class="nhsuk-details__summary" role="button" aria-controls="details-content-0" aria-expanded="false">
+  <summary class="nhsuk-details__summary">
     <span class="nhsuk-details__summary-text">
     Where can I find my NHS number?
     </span>
   </summary>
-  <div class="nhsuk-details__text" id="details-content-0" aria-hidden="true">
+  <div class="nhsuk-details__text">
     <p>An NHS number is a 10 digit number, like 485 777 3456.</p>
     <p>You can find your NHS number on any document sent to you by the NHS. This may include:</p>
     <ul>

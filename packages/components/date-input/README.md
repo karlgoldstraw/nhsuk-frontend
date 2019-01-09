@@ -90,54 +90,42 @@ To discuss or contribute to this component, visit the [GitHub issue for this com
 
 ```html
 <div class="nhsuk-form-group nhsuk-form-group--error">
-  <fieldset class="nhsuk-fieldset" aria-describedby="dob-errors-hint dob-errors-error" role="group">
-
+  <fieldset class="nhsuk-fieldset" aria-describedby="dob-day-error-hint dob-day-error-error" role="group">
     <legend class="nhsuk-fieldset__legend">
       What is your date of birth?
     </legend>
-
-    <span id="dob-errors-hint" class="nhsuk-hint">
-      For example, 31 3 1980
+    <span class="nhsuk-hint" id="dob-day-error-hint">
+    For example, 31 3 1980
     </span>
-
-    <span id="dob-errors-error" class="nhsuk-error-message">
-      Error message goes here
+    <span id="dob-day-error-error" class="nhsuk-error-message">
+    Error message goes here
     </span>
-
-    <div class="nhsuk-date-input" id="dob-errors">
-
+    <div class="nhsuk-date-input" id="dob-day-error">
       <div class="nhsuk-date-input__item">
         <div class="nhsuk-form-group">
-          <label class="nhsuk-label nhsuk-date-input__label" for="dob-errors-day">
-            Day
+          <label class="nhsuk-label nhsuk-date-input__label" for="dob-day-error-day">
+          Day
           </label>
-
-          <input class="nhsuk-input nhsuk-date-input__input nhsuk-input--width-2 nhsuk-input--error" id="dob-errors-day" name="day" type="number" pattern="[0-9]*">
+          <input class="nhsuk-input nhsuk-date-input__input nhsuk-input--width-2 nhsuk-input--error" id="dob-day-error-day" name="dob-day-error-day" type="number" pattern="[0-9]*">
         </div>
       </div>
-
       <div class="nhsuk-date-input__item">
         <div class="nhsuk-form-group">
-          <label class="nhsuk-label nhsuk-date-input__label" for="dob-errors-month">
-            Month
+          <label class="nhsuk-label nhsuk-date-input__label" for="dob-day-error-month">
+          Month
           </label>
-
-          <input class="nhsuk-input nhsuk-date-input__input nhsuk-input--width-2 nhsuk-input--error" id="dob-errors-month" name="month" type="number" pattern="[0-9]*">
+          <input class="nhsuk-input nhsuk-date-input__input nhsuk-input--width-2" id="dob-day-error-month" name="dob-day-error-month" type="number" pattern="[0-9]*">
         </div>
       </div>
-
       <div class="nhsuk-date-input__item">
         <div class="nhsuk-form-group">
-          <label class="nhsuk-label nhsuk-date-input__label" for="dob-errors-year">
-            Year
+          <label class="nhsuk-label nhsuk-date-input__label" for="dob-day-error-year">
+          Year
           </label>
-
-          <input class="nhsuk-input nhsuk-date-input__input nhsuk-input--width-4 nhsuk-input--error" id="dob-errors-year" name="year" type="number" pattern="[0-9]*">
+          <input class="nhsuk-input nhsuk-date-input__input nhsuk-input--width-4" id="dob-day-error-year" name="dob-day-error-year" type="number" pattern="[0-9]*">
         </div>
       </div>
-
     </div>
-
   </fieldset>
 </div>
 ```

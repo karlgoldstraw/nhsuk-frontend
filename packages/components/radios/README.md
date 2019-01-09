@@ -421,40 +421,31 @@ To discuss or contribute to this component, visit the [GitHub issue for this com
 
 ```html
 <div class="nhsuk-form-group nhsuk-form-group--error">
-
-  <fieldset class="nhsuk-fieldset app-fieldset--custom-modifier" data-attribute="value" data-second-attribute="second-value" aria-describedby="example-hint example-error" >
-
-  <legend class="nhsuk-fieldset__legend">
-    Have you changed your name?
-  </legend>
-
-  <span class="nhsuk-hint" id="example-hint">
+  <fieldset class="nhsuk-fieldset app-fieldset--custom-modifier" aria-describedby="example-hint example-error" data-attribute="value" data-second-attribute="second-value">
+    <legend class="nhsuk-fieldset__legend">
+      Have you changed your name?
+    </legend>
+    <span class="nhsuk-hint" id="example-hint">
     This includes changing your last name or spelling your name differently.
-  </span>
-
-  <span  class="nhsuk-error-message" id="example-error">
+    </span>
+    <span id="example-error" class="nhsuk-error-message">
     Please select an option
-  </span>
-
-  <div class="nhsuk-radios">
-
-    <div class="nhsuk-radios__item">
-      <input class="nhsuk-radios__input" id="example-1" name="example" type="radio" value="yes">
-      <label class="nhsuk-label nhsuk-radios__label" for="example-1">
+    </span>
+    <div class="nhsuk-radios">
+      <div class="nhsuk-radios__item">
+        <input class="nhsuk-radios__input" id="example-1" name="example"type="radio" value="yes">
+        <label class="nhsuk-label nhsuk-radios__label" for="example-1">
         Yes
-      </label>
-    </div>
-
-    <div class="nhsuk-radios__item">
-      <input class="nhsuk-radios__input" id="example-2" name="example" type="radio" value="no" checked>
-      <label class="nhsuk-label nhsuk-radios__label" for="example-2">
+        </label>
+      </div>
+      <div class="nhsuk-radios__item">
+        <input class="nhsuk-radios__input" id="example-2" name="example"type="radio" value="no" checked>
+        <label class="nhsuk-label nhsuk-radios__label" for="example-2">
         No
-      </label>
+        </label>
+      </div>
     </div>
-
-  </div>
   </fieldset>
-
 </div>
 ```
 
